@@ -1,0 +1,21 @@
+sh-keygen -t rsa -C   @qq.com
+
+
+config中的配置
+#默认使用
+Host github.com
+HostName github.com
+User git
+IdentityFile ~/.ssh/id_rsa
+
+Host github-vueCode
+HostName github.com
+User git
+IdentityFile ~/.ssh/vueCode
+
+
+Host github-vueCode
+HostName github.com
+User git
+IdentityFile ~/.ssh/git-test
+
