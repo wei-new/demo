@@ -3,3 +3,8 @@
 1.git add添加文件到仓库
 2.git commit 将文件提交到仓库
 
+
+
+版本回退命令: git reset --hard HEAD^
+
+查看git记录的每次命令: git reflog
