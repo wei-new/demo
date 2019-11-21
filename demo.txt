@@ -14,3 +14,10 @@
 	如果已经add到暂存区 没有commit  那么
 		1.git reset HEAD fileName
 		2.git checkout -- fileName
+
+
+
+git 删除文件:  当文件add 到暂存区时  
+		1.删除本地文件
+		2.git rm fileName
+	如果只是错删本地文件 git check -- fileName
