@@ -1,0 +1,7 @@
+这是一个demo文件  用来测试提交记录
+
+1.git add添加文件到仓库
+2.git commit 将文件提交到仓库
+
+
+test:git diff 显示的东西
