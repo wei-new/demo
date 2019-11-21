@@ -11,3 +11,6 @@
 
 
 丢弃对工作区的修改,回到上一次保存的版本: git checkout -- file
+	如果已经add到暂存区 没有commit  那么
+		1.git reset HEAD fileName
+		2.git checkout -- fileName
