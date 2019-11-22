@@ -33,3 +33,8 @@ git 推送到远程服务器:
 	git branch(列出所有的分支,在当前分支前会有*);
 切换分支: 
 	git checkout master(切换到master分支)
+当其他分支提交后需要合并:
+	
+	快进模式: git merge dev (将dev分支合并到当前分支)
+删除分支: 
+	git branch -d test 
