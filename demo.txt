@@ -21,3 +21,7 @@ git 删除文件:  当文件add 到暂存区时
 		1.删除本地文件
 		2.git rm fileName
 	如果只是错删本地文件 git check -- fileName
+
+git 推送到远程服务器:
+ 	git remote add origin 'address' (添加远程仓库地址)
+	推送: git push -u origin master
