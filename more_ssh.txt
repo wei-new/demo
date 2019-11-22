@@ -19,3 +19,8 @@ HostName github.com
 User git
 IdentityFile ~/.ssh/git-test
 
+
+命令行需要执行的命令:
+ssh-agent bash
+ssh-add ~/.ssh/git-test
+ssh -T git@github.com
