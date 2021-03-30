@@ -1,0 +1,17 @@
+Host github.com
+  2     User git
+  3     HostName github.com
+  4     PreferredAuthentications publickey
+  5     IdentityFile ~/.ssh/self
+  6 Host  code.aliyun.com
+  7     User git
+  8     HostName code.aliyun.com
+  9     PreferredAuthentications publickey
+ 10     IdentityFile ~/.ssh/we
+ 11
+ 12 Host github.com
+ 13     User git
+ 14     HostName github.com
+ 15     PreferredAuthentications publickey
+ 16     IdentityFile ~/.ssh/todo
+ 17
